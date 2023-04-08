@@ -32,7 +32,7 @@ setup(
     name=SRC_REPO,
     version="0.0.1",
     author=AUTHOR_USER_NAME,
-    description="A end-toend mlproject",
+    description="An end-to-end mlproject",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
