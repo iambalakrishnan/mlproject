@@ -4,7 +4,7 @@
 # Environment Setup
 
 ### Create Environment
-```conda create -prefix ./env python=3.8 -y```
+```conda create --prefix ./env python=3.8 -y```
 
 ### Activate environment
 ```Conda activate ./env```
