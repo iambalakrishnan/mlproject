@@ -30,7 +30,7 @@ def get_requirements_list()->List[str]:
 
 setup(
     name=SRC_REPO,
-    version="0.0.1",
+    version="0.0.2",
     author=AUTHOR_USER_NAME,
     description="An end-to-end mlproject",
     long_description=long_description,
