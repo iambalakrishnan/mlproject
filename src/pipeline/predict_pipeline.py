@@ -2,7 +2,6 @@ import os
 import sys
 import pandas as pd
 from src.exceptions.exception import CustomException
-from src.logs.log import logging
 from src.utils.util import load_object
 
 class PredictionPipeline():

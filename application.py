@@ -5,8 +5,6 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 from src.pipeline.predict_pipeline import CustomData,PredictionPipeline
-from src.exceptions.exception import CustomException
-from src.logs.log import logging
 application = Flask(__name__)
 
 app = application
@@ -33,7 +31,6 @@ def prediction_data():
         )
         
         pred_df = data.get_data_as_frame()
-        logging.info(f'input data from user : {pred_df}')
         print(pred_df)
         
         predict_pipeline = PredictionPipeline()
